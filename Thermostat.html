@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<script src="src/Thermo.js"></script>
+
 
 <html lang="en" dir="ltr">
 
@@ -21,18 +21,25 @@
 
       <button id="reset">Reset</button>
 
+      Power saving mode is: <span id="power-saving-status">On</span>
+
       <button id="energy-usage">Energy Usage</button>
 
-      Power Saving Mode:
-      <svg width="40" height="40">
+ 
+      <!-- <svg width="40" height="40">
         <rect id="power-saving-status" width="20" height="20" style="fill:rgb(152, 251, 152)" />
-      </svg>
+      </svg> -->
 
       <button id="psm-on">PSM On</button>
 
       <button id="psm-off">PSM Off</button>
     </p>
   </section>
+
+  <script src="src/Thermo.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="interface.js"></script>
+  
 </body>
 
 </html>
