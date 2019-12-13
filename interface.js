@@ -22,14 +22,14 @@ $(document).ready(function () {
 
     $('#psm-on').on('click', function () { 
         thermostat.switchPsmOn(); 
-        $('#power-saving-status').text('on')
+        $('#power-saving-status').text('On')
         updateTemperature();
         
     });
 
     $('#psm-off').on('click', function () { 
         thermostat.switchPsmOff(); 
-        $('#power-saving-status').text('off')
+        $('#power-saving-status').text('Off')
         updateTemperature();
         
     });
